@@ -1,7 +1,7 @@
 /* FONDO GENERAL */
 body {
     font-family: 'Segoe UI', sans-serif;
-    background: linear-gradient(135deg, #f6e6ff, #ffe6f0);
+    background: linear-gradient(135deg, #bb7ae1, #e1739f);
     margin: 0;
     padding: 0;
     animation: fondo 10s infinite alternate;
@@ -16,11 +16,11 @@ body {
 /* CONTENEDOR PRINCIPAL */
 .cv {
     max-width: 850px;
-    background: #ffffff;
+    background: #e77878;
     margin: 40px auto;
     padding: 35px;
     border-radius: 20px;
-    box-shadow: 0 15px 30px rgba(180, 120, 200, 0.25);
+    box-shadow: 0 15px 30px rgba(220, 123, 252, 0.25);
     animation: aparecer 1.5s ease;
 }
 
@@ -49,8 +49,8 @@ body {
     height: 180px;
     border-radius: 50% / 40%;
     object-fit: cover;
-    border: 4px solid #d6a4e3;
-    box-shadow: 0 8px 15px rgba(200, 140, 220, 0.4);
+    border: 4px solid #d279e8;
+    box-shadow: 0 8px 15px rgba(133, 82, 150, 0.4);
     transition: transform 0.4s ease;
 }
 
@@ -62,17 +62,17 @@ body {
 h1 {
     margin: 0;
     font-size: 32px;
-    color: #8b5fbf;
+    color: #985bde;
 }
 
 .titulo {
-    color: #c77dbb;
+    color: #e566d0;
     font-weight: bold;
 }
 
 .info p {
     margin: 4px 0;
-    color: #5e4a6e;
+    color: #8b5eb0;
 }
 
 /* SECCIONES */
@@ -95,14 +95,14 @@ section {
 
 /* TÍTULOS */
 h2 {
-    color: #c77dbb;
-    border-bottom: 3px solid #f2c6de;
+    color: #f369dc;
+    border-bottom: 3px solid #ed67b1;
     padding-bottom: 6px;
 }
 
 /* TEXTO */
 p, li {
-    color: #5e4a6e;
+    color: #a46dd2;
     line-height: 1.7;
 }
 
