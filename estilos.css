@@ -1,9 +1,7 @@
-
-   
 /* FONDO GENERAL */
 body {
     font-family: 'Segoe UI', sans-serif;
-    background: linear-gradient(135deg, #bb7ae1, #e1739f);
+    background: linear-gradient(135deg, #d19eec, #ee9abb);
     margin: 0;
     padding: 0;
     animation: fondo 10s infinite alternate;
@@ -18,11 +16,11 @@ body {
 /* CONTENEDOR PRINCIPAL */
 .cv {
     max-width: 850px;
-    background: #e77878;
+    background:  #ee9abb;
     margin: 40px auto;
     padding: 35px;
     border-radius: 20px;
-    box-shadow: 0 15px 30px rgba(220, 123, 252, 0.25);
+    box-shadow: 0 15px 30px rgba(228, 156, 252, 0.25);
     animation: aparecer 1.5s ease;
 }
 
@@ -51,8 +49,8 @@ body {
     height: 180px;
     border-radius: 50% / 40%;
     object-fit: cover;
-    border: 4px solid #d279e8;
-    box-shadow: 0 8px 15px rgba(133, 82, 150, 0.4);
+    border: 4px solid #d19eec;
+    box-shadow: 0 8px 15px rgba(213, 144, 236, 0.4);
     transition: transform 0.4s ease;
 }
 
@@ -64,17 +62,17 @@ body {
 h1 {
     margin: 0;
     font-size: 32px;
-    color: #985bde;
+    color:  #d19eec;
 }
 
 .titulo {
-    color: #e566d0;
+    color: #f297e3;
     font-weight: bold;
 }
 
 .info p {
     margin: 4px 0;
-    color: #8b5eb0;
+    color:  #d19eec;
 }
 
 /* SECCIONES */
@@ -97,14 +95,14 @@ section {
 
 /* TÍTULOS */
 h2 {
-    color: #f369dc;
-    border-bottom: 3px solid #ed67b1;
+    color: #f087de;
+    border-bottom: 3px solid #f687c4;
     padding-bottom: 6px;
 }
 
 /* TEXTO */
 p, li {
-    color: #5e4a6e;
+    color: #d19eec;
     line-height: 1.7;
 }
 
